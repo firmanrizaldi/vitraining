@@ -1,0 +1,60 @@
+No. 1
+
+    ambil tujuan lantai terdekat terlebih dahulu
+
+    Misalnya:
+    Jumlah Orang: 4
+    Tujuan Orang 1: Lantai 14
+    Tujuan Orang 2: Lantai 20
+    Tujuan Orang 3: Lantai 5
+    Tujuan Orang 4: Lantai 1
+    Posisi Lift sekarang: 10
+
+    Maka:
+    Lift bergerak turun ke lantai 5, 1
+    Lalu naik ke lantai 14, 20
+
+
+    dikumpulkan besok paling lambat jam 17.00
+
+    hint : gunakan array sort di Python
+
+No. 2
+
+    Buat script python untuk menentukan apakah suatu bilangan adalah Prima atau Bukan Prima
+
+    Input: angka x
+
+    Output:
+
+    x adalah bilangan prima
+
+    atau
+
+    x bukan bilangan prima
+
+No.3
+
+    Buat script input matrix MxN
+
+    Tentukan berapa jumlah bilangan positif dan negatif didalam matrix tsb dan tampilkan isi matrix
+
+No.4
+
+    Buat matrix segitiga pascal dgn ketentuan sbb:
+    Kolom dan baris pertama bernilai 1.
+    Kolom dan baris berikut nya adalah jumlah dari elemen baris sebelumnya ditambah dengan nilai elemen sebelum nya
+
+No.5
+
+    Array input:
+    [
+    [field1, field2, field2, ... dst],
+    [field1, field2, field2, ... dst],
+    ... dst
+    ]
+
+    Diproses menjadi string dgn format:
+    field1~field2field2...|field1field2field2~...|... dst
+
+    Gunakan list comprehesion jika memungkinkan
